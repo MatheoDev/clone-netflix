@@ -1,0 +1,48 @@
+header.header {
+    background-color: rgb(20, 20, 20);
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 55px;
+}
+.header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .navbar .logo h1 img {
+    width: 90px;
+    margin-top: 5px;
+    margin-right: 40px;
+}
+.header .navbar .nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9em;
+    font-weight: 400;
+    margin-right: 15px;
+}
+.header .account {
+    display: flex;
+    align-items: center;
+}
+.header .account a {
+    margin-left: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+.header .account a i {
+    font-size: 1.5em;
+}
+.header .account .profil span {
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+.header .account .profil span img {
+    width: 100%;
+}
